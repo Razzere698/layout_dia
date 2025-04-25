@@ -48,9 +48,9 @@
     align-items: center;
     gap: 32px;
     grid-column: 1 / -1;
+    transition: all 0.3s;
 
     &:hover {
-      transition: all 0.3s;
       transform: scale(1.2);
     }
 
@@ -81,6 +81,10 @@
   &__img {
     width: 166px;
     height: 166px;
+  }
+
+  &__photo {
+    border-radius: 16px;
   }
 
   &__text {

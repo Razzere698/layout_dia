@@ -25,10 +25,10 @@
     padding: 32px;
     border-radius: 16px;
     background-color: $font-header-color;
+    transition: all 0.3s;
 
     &:hover {
       z-index: 2;
-      transition: all 0.3s;
     }
 
     &--group {
