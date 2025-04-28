@@ -95,6 +95,10 @@
       border-radius: 30px;
       background: linear-gradient(to top, rgba(0, 136, 204, 0.6), transparent);
       z-index: 0;
+
+    @include on-desktop {
+        border-radius: $border-radius-master 0;
+      }
     }
   }
 

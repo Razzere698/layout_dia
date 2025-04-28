@@ -180,11 +180,11 @@
   }
 
   &__icon {
-    filter: brightness(300);
+    // filter: brightness(300);
     transition: filter 0.3s;
 
     &:hover {
-      filter: brightness(1);
+      // filter: brightness(1);
     }
   }
 }
